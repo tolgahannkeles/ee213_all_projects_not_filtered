@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.936533",
+   "Default View_TopLeft":"-68,-45",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_i0 -pg 1 -lvl 0 -x 0 -y 190 -defaultsOSRD
+preplace port port-id_i1 -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace port port-id_i2 -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port port-id_i3 -pg 1 -lvl 0 -x 0 -y 330 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace port port-id_dp -pg 1 -lvl 6 -x 1130 -y 160 -defaultsOSRD
+preplace portBus seg -pg 1 -lvl 6 -x 1130 -y 80 -defaultsOSRD
+preplace portBus an -pg 1 -lvl 6 -x 1130 -y 130 -defaultsOSRD
+preplace inst bin2BCD_0 -pg 1 -lvl 2 -x 320 -y 320 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -x 710 -y 230 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 120 -y 70 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -x 510 -y 60 -defaultsOSRD
+preplace inst seg7display_0 -pg 1 -lvl 5 -x 960 -y 130 -defaultsOSRD
+preplace netloc i1_1 1 0 2 N 290 210
+preplace netloc i2_1 1 0 2 N 310 200
+preplace netloc i3_1 1 0 2 N 330 N
+preplace netloc bin2BCD_0_y1 1 2 2 420 210 N
+preplace netloc bin2BCD_0_y2 1 2 2 430 230 N
+preplace netloc bin2BCD_0_y3 1 2 2 N 350 610
+preplace netloc i0_1 1 0 4 NJ 190 N 190 N 190 N
+preplace netloc xlconstant_0_dout 1 1 1 220 70n
+preplace netloc xlconstant_1_dout 1 3 1 600 60n
+preplace netloc xlconcat_0_dout 1 4 1 820 110n
+preplace netloc clk_1 1 0 5 20J 130 NJ 130 NJ 130 NJ 130 N
+preplace netloc reset_1 1 0 5 30J 180 NJ 180 NJ 180 590J 120 810
+preplace netloc seg7display_0_a_to_g 1 5 1 1100 80n
+preplace netloc seg7display_0_an_l 1 5 1 N 130
+preplace netloc seg7display_0_dp_l 1 5 1 1100 150n
+levelinfo -pg 1 0 120 320 510 710 960 1130
+pagesize -pg 1 -db -bbox -sgen -80 0 1230 450
+"
+}
+

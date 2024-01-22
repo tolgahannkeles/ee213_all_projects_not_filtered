@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="40">
+  <CompositeFile CompositeFileTopName="bouncer2_design" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1704955600"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1704955600"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1704955600"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1704955600"/>
+    <FileCollection Name="SOURCES" Type="SOURCES"/>
+  </CompositeFile>
+</Root>

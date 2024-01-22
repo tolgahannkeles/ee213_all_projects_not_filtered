@@ -1,0 +1,53 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.534483",
+   "Default View_TopLeft":"-329,-498",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -80 -y 20 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -80 -y 40 -defaultsOSRD
+preplace port port-id_en -pg 1 -lvl 0 -x -80 -y 60 -defaultsOSRD
+preplace port port-id_i -pg 1 -lvl 0 -x -80 -y 80 -defaultsOSRD
+preplace port port-id_O -pg 1 -lvl 6 -x 1680 -y -460 -defaultsOSRD
+preplace port port-id_ledClk -pg 1 -lvl 6 -x 1680 -y -480 -defaultsOSRD
+preplace port port-id_ledI -pg 1 -lvl 6 -x 1680 -y -440 -defaultsOSRD
+preplace inst xup_clk_divider_0 -pg 1 -lvl 2 -x 690 -y 330 -defaultsOSRD
+preplace inst A -pg 1 -lvl 3 -x 1010 -y -160 -defaultsOSRD
+preplace inst B -pg 1 -lvl 3 -x 1010 -y 20 -defaultsOSRD -resize 220 136
+preplace inst xup_inv_0 -pg 1 -lvl 4 -x 1280 -y 30 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 1 -x 350 -y -190 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 1 -x 350 -y -60 -defaultsOSRD
+preplace inst xup_and2_2 -pg 1 -lvl 2 -x 690 -y -50 -defaultsOSRD
+preplace inst xup_and2_3 -pg 1 -lvl 2 -x 690 -y 70 -defaultsOSRD
+preplace inst xup_and3_0 -pg 1 -lvl 2 -x 690 -y 200 -defaultsOSRD
+preplace inst xup_inv_1 -pg 1 -lvl 4 -x 1280 -y -140 -defaultsOSRD
+preplace inst xup_inv_2 -pg 1 -lvl 1 -x 350 -y 100 -defaultsOSRD
+preplace inst xup_or2_0 -pg 1 -lvl 2 -x 690 -y -170 -defaultsOSRD
+preplace inst xup_or3_0 -pg 1 -lvl 3 -x 1010 -y 170 -defaultsOSRD
+preplace inst xup_and3_1 -pg 1 -lvl 5 -x 1540 -y 10 -defaultsOSRD
+preplace inst bouncer_design_wrapp_0 -pg 1 -lvl 2 -x 690 -y -340 -defaultsOSRD
+preplace netloc clk_1 1 0 2 -50 10 520
+preplace netloc xup_clk_divider_0_clkout 1 1 5 550 -430 850 -480 N -480 N -480 N
+preplace netloc i_1 1 0 2 -40 -330 N
+preplace netloc en_1 1 0 3 -30 -270 530 -240 860
+preplace netloc B_q 1 1 4 550 400 N 400 1150 120 1410
+preplace netloc A_q 1 0 5 230 -260 500J -250 NJ -250 1150 -230 1410
+preplace netloc xup_inv_0_y 1 0 5 210 200 500J 410 NJ 410 NJ 410 1400
+preplace netloc bouncer_design_wrapp_0_X0 1 0 6 220 -280 510J -440 840 -440 N -440 N -440 N
+preplace netloc reset_1 1 0 3 -60J -460 NJ -460 870
+preplace netloc xup_inv_1_y 1 1 4 540 -450 NJ -450 NJ -450 1400
+preplace netloc xup_inv_2_y 1 1 4 490 420 N 420 1160 400 1420
+preplace netloc xup_and2_0_y 1 1 1 470 -190n
+preplace netloc xup_and2_1_y 1 1 1 470 -160n
+preplace netloc xup_or2_0_y 1 2 1 840 -190n
+preplace netloc xup_and2_2_y 1 2 1 840 -50n
+preplace netloc xup_and2_3_y 1 2 1 830 70n
+preplace netloc xup_and3_0_y 1 2 1 870 190n
+preplace netloc xup_or3_0_y 1 2 2 880 250 1140
+preplace netloc xup_and3_1_y 1 5 1 1660 -460n
+levelinfo -pg 1 -80 350 690 1010 1280 1540 1680
+pagesize -pg 1 -db -bbox -sgen -160 -500 1770 430
+"
+}
+

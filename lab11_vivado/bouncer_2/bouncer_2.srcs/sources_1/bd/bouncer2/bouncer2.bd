@@ -1,0 +1,45 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../bouncer_2.gen/sources_1/bd/bouncer2",
+      "name": "bouncer2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1"
+    },
+    "design_tree": {
+      "xup_and2_3": "",
+      "xup_and3_0": ""
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      },
+      "en": {
+        "direction": "I"
+      },
+      "i": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "xup_and2_3": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "bouncer2_xup_and2_2_0",
+        "xci_path": "ip\\bouncer2_xup_and2_2_0\\bouncer2_xup_and2_2_0.xci",
+        "inst_hier_path": "xup_and2_3"
+      },
+      "xup_and3_0": {
+        "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+        "xci_name": "bouncer2_xup_and3_0_0",
+        "xci_path": "ip\\bouncer2_xup_and3_0_0\\bouncer2_xup_and3_0_0.xci",
+        "inst_hier_path": "xup_and3_0"
+      }
+    }
+  }
+}

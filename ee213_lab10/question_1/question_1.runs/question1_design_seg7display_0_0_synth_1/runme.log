@@ -1,0 +1,223 @@
+
+*** Running vivado
+    with args -log question1_design_seg7display_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source question1_design_seg7display_0_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source question1_design_seg7display_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 436.422 ; gain = 165.559
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: question1_design_seg7display_0_0
+Command: synth_design -top question1_design_seg7display_0_0 -part xc7a35tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2764
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 888.230 ; gain = 410.883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'question1_design_seg7display_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/ip/question1_design_seg7display_0_0/synth/question1_design_seg7display_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'seg7display' [c:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/ipshared/7665/src/seg7display.v:21]
+INFO: [Synth 8-226] default block is never used [c:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/ipshared/7665/src/seg7display.v:66]
+INFO: [Synth 8-226] default block is never used [c:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/ipshared/7665/src/seg7display.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'seg7display' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/ipshared/7665/src/seg7display.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'question1_design_seg7display_0_0' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/ip/question1_design_seg7display_0_0/synth/question1_design_seg7display_0_0.v:53]
+WARNING: [Synth 8-3848] Net dp_h in module/entity seg7display does not have driver. [c:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/ipshared/7665/src/seg7display.v:33]
+WARNING: [Synth 8-7129] Port dp_h in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[15] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[14] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[13] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[12] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[11] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[10] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[9] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[8] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[7] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[6] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[5] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[4] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[3] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[2] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[1] in module seg7display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_h[0] in module seg7display is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 977.766 ; gain = 500.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 977.766 ; gain = 500.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 977.766 ; gain = 500.418
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'dp_l_reg' [c:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/ipshared/7665/src/seg7display.v:121]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 977.766 ; gain = 500.418
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3332] Sequential element (inst/dp_l_reg) is unused and will be removed from module question1_design_seg7display_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1167.180 ; gain = 689.832
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1168.066 ; gain = 690.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1168.254 ; gain = 690.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     5|
+|2     |LUT1   |     1|
+|3     |LUT2   |     4|
+|4     |LUT4   |     7|
+|5     |LUT6   |     4|
+|6     |FDRE   |    24|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |    45|
+|2     |  inst   |seg7display |    45|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.254 ; gain = 690.906
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1180.133 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1274.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 9455e05c
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1274.027 ; gain = 804.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.runs/question1_design_seg7display_0_0_synth_1/question1_design_seg7display_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1573.586 ; gain = 299.559
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP question1_design_seg7display_0_0, cache-ID = f9fb6aeb02fb965d
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.runs/question1_design_seg7display_0_0_synth_1/question1_design_seg7display_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file question1_design_seg7display_0_0_utilization_synth.rpt -pb question1_design_seg7display_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  3 23:37:36 2024...

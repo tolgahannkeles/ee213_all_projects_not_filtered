@@ -1,0 +1,50 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "block_1_xup_and3_0_1",
+    "cell_name": "xup_and3_1",
+    "component_reference": "xilinx.com:XUP:xup_and3:1.0",
+    "ip_revision": "2",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "DELAY": [ { "value": "3", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "block_1_xup_and3_0_1", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "DELAY": [ { "value": "3", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "artix7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7a35t" } ],
+        "PACKAGE": [ { "value": "cpg236" } ],
+        "PREFHDL": [ { "value": "VHDL" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "2" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "." } ],
+        "SWVERSION": [ { "value": "2023.1" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "a": [ { "direction": "in" } ],
+        "b": [ { "direction": "in" } ],
+        "c": [ { "direction": "in" } ],
+        "y": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

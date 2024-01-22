@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.809906",
+   "Default View_TopLeft":"-81,-144",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace port port-id_dp -pg 1 -lvl 6 -x 1280 -y 260 -defaultsOSRD
+preplace portBus an -pg 1 -lvl 6 -x 1280 -y 240 -defaultsOSRD
+preplace portBus seg -pg 1 -lvl 6 -x 1280 -y 220 -defaultsOSRD
+preplace portBus counter -pg 1 -lvl 6 -x 1280 -y 160 -defaultsOSRD
+preplace portBus i -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace inst xup_clk_divider_0 -pg 1 -lvl 1 -x 160 -y 60 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 2 -x 400 -y 70 -defaultsOSRD
+preplace inst bin2bcd_0 -pg 1 -lvl 3 -x 630 -y 70 -defaultsOSRD
+preplace inst seg7display_0 -pg 1 -lvl 5 -x 1120 -y 240 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -x 880 -y 160 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 630 -y 180 -defaultsOSRD
+preplace netloc clk_1 1 0 1 NJ 60
+preplace netloc xup_clk_divider_0_clkout 1 1 4 300 240 NJ 240 NJ 240 NJ
+preplace netloc bin2bcd_0_ones 1 3 1 780 60n
+preplace netloc bin2bcd_0_tens 1 3 1 770 80n
+preplace netloc xlconstant_0_dout 1 3 1 NJ 180
+preplace netloc xlconcat_0_dout 1 4 2 980 160 NJ
+preplace netloc reset_1 1 0 5 NJ 130 310 260 NJ 260 NJ 260 NJ
+preplace netloc seg7display_0_dp_l 1 5 1 NJ 260
+preplace netloc seg7display_0_a_to_g 1 5 1 NJ 220
+preplace netloc seg7display_0_an_l 1 5 1 NJ 240
+preplace netloc c_counter_binary_0_Q 1 2 1 N 70
+levelinfo -pg 1 0 160 400 630 880 1120 1280
+pagesize -pg 1 -db -bbox -sgen -80 0 1420 320
+"
+}
+

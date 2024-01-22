@@ -1,0 +1,60 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.687751",
+   "Default View_TopLeft":"-81,-109",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace port port-id_i0 -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port port-id_i1 -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace port port-id_i2 -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_i3 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port port-id_dp -pg 1 -lvl 8 -x 1820 -y 420 -defaultsOSRD
+preplace port port-id_sel -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace portBus an -pg 1 -lvl 8 -x 1820 -y 400 -defaultsOSRD
+preplace portBus seg -pg 1 -lvl 8 -x 1820 -y 380 -defaultsOSRD
+preplace inst seg7display_0 -pg 1 -lvl 7 -x 1660 -y 400 -defaultsOSRD
+preplace inst bin2BCD_1 -pg 1 -lvl 3 -x 620 -y 210 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -x 390 -y 160 -defaultsOSRD
+preplace inst xlconcat_2 -pg 1 -lvl 4 -x 910 -y 300 -defaultsOSRD
+preplace inst xup_clk_divider_0 -pg 1 -lvl 1 -x 160 -y 470 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 2 -x 390 -y 480 -defaultsOSRD
+preplace inst bin2bcd_0 -pg 1 -lvl 3 -x 620 -y 480 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -x 910 -y 490 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 620 -y 590 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 4 -x 910 -y 80 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 5 -x 1160 -y 90 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 5 -x 1160 -y 210 -defaultsOSRD
+preplace inst xup_or2_0 -pg 1 -lvl 6 -x 1400 -y 200 -defaultsOSRD
+preplace netloc seg7display_0_a_to_g 1 7 1 NJ 380
+preplace netloc seg7display_0_an_l 1 7 1 NJ 400
+preplace netloc seg7display_0_dp_l 1 7 1 NJ 420
+preplace netloc i1_1 1 0 3 NJ 260 NJ 260 NJ
+preplace netloc i2_1 1 0 3 NJ 240 NJ 240 NJ
+preplace netloc i3_1 1 0 3 NJ 220 NJ 220 NJ
+preplace netloc xlconstant_1_dout 1 2 1 480 160n
+preplace netloc reset_1 1 0 7 NJ 540 300 410 NJ 410 NJ 410 NJ 410 NJ 410 1520
+preplace netloc clk_1 1 0 7 20 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ
+preplace netloc bin2BCD_1_y3 1 3 1 770 240n
+preplace netloc bin2BCD_1_y2 1 3 1 760 260n
+preplace netloc bin2BCD_1_y1 1 3 1 N 280
+preplace netloc i0_1 1 0 4 20J 70 NJ 70 NJ 70 780J
+preplace netloc xup_clk_divider_0_clkout 1 1 1 NJ 470
+preplace netloc c_counter_binary_0_Q 1 2 1 N 480
+preplace netloc bin2bcd_0_ones 1 3 1 N 470
+preplace netloc bin2bcd_0_tens 1 3 1 N 490
+preplace netloc xlconstant_0_dout 1 3 1 790J 510n
+preplace netloc sel_1 1 0 5 NJ 80 NJ 80 NJ 80 790 200 NJ
+preplace netloc xup_inv_0_y 1 4 1 NJ 80
+preplace netloc xlconcat_2_dout 1 4 1 1040 220n
+preplace netloc xlconcat_0_dout 1 4 1 1030 100n
+preplace netloc xup_and2_0_y 1 5 1 1280 90n
+preplace netloc xup_and2_1_y 1 5 1 N 210
+preplace netloc xup_or2_0_y 1 6 1 1520 200n
+levelinfo -pg 1 0 160 390 620 910 1160 1400 1660 1820
+pagesize -pg 1 -db -bbox -sgen -80 0 1920 650
+"
+}
+

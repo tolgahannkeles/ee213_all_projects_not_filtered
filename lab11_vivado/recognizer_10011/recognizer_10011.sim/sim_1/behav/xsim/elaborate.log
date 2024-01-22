@@ -1,0 +1,35 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot cfg_tb_design_1_wrapper_behav xil_defaultlib.cfg_tb_design_1_wrapper -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'design_1_xup_dff_en_reset_0_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:176]
+WARNING: [VRFC 10-4940] 'design_1_a_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:184]
+WARNING: [VRFC 10-4940] 'design_1_a1_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:192]
+WARNING: [VRFC 10-4940] 'design_1_xup_and2_0_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:200]
+WARNING: [VRFC 10-4940] 'design_1_xup_and2_1_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:206]
+WARNING: [VRFC 10-4940] 'design_1_xup_and2_2_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:212]
+WARNING: [VRFC 10-4940] 'design_1_xup_and3_0_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:218]
+WARNING: [VRFC 10-4940] 'design_1_xup_and3_1_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:225]
+WARNING: [VRFC 10-4940] 'design_1_xup_and3_2_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:232]
+WARNING: [VRFC 10-4940] 'design_1_xup_and4_0_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:239]
+WARNING: [VRFC 10-4940] 'design_1_xup_inv_0_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:247]
+WARNING: [VRFC 10-4940] 'design_1_xup_inv_1_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:252]
+WARNING: [VRFC 10-4940] 'design_1_xup_inv_2_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:257]
+WARNING: [VRFC 10-4940] 'design_1_xup_or2_0_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:262]
+WARNING: [VRFC 10-4940] 'design_1_xup_or2_1_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:268]
+WARNING: [VRFC 10-4940] 'design_1_xup_or2_2_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/lab11_vivado/recognizer_10011/recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd:274]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_design_1_wrapper [tb_design_1_wrapper]
+Built simulation snapshot cfg_tb_design_1_wrapper_behav

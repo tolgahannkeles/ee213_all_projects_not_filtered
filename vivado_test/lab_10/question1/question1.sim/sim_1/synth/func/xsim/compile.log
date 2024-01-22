@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_test/lab_10/question1/question1.sim/sim_1/synth/func/xsim/cfg_tb_design_1_wrapper_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_bin2BCD_0_1'
+INFO: [VRFC 10-3107] analyzing entity 'design_1_seg7display_0_0_seg7display'
+INFO: [VRFC 10-3107] analyzing entity 'design_1_seg7display_0_0'
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_test/lab_10/question1/question1.srcs/sim_1/new/simu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_design_1_wrapper'

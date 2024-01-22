@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../counter_detector.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v" \
+"../../../../counter_detector.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v" \
+"../../../../counter_detector.ip_user_files/bd/design_1/ip/design_1_xlslice_1_0/sim/design_1_xlslice_1_0.v" \
+"../../../../counter_detector.ip_user_files/bd/design_1/ip/design_1_xlslice_2_0/sim/design_1_xlslice_2_0.v" \
+"../../../../counter_detector.ip_user_files/bd/design_1/ipshared/8301/src/xup_and4.v" \
+"../../../../counter_detector.ip_user_files/bd/design_1/ip/design_1_xup_and4_0_0/sim/design_1_xup_and4_0_0.v" \
+"../../../../counter_detector.ip_user_files/bd/design_1/ipshared/67eb/src/xup_inv.v" \
+"../../../../counter_detector.ip_user_files/bd/design_1/ip/design_1_xup_inv_0_0/sim/design_1_xup_inv_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

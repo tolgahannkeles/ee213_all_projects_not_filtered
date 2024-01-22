@@ -1,0 +1,390 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jan  4 08:15:16 2024
+# Process ID: 14404
+# Current directory: C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1
+# Command line: vivado.exe -log question2_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source question2_design_wrapper.tcl
+# Log file: C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/question2_design_wrapper.vds
+# Journal file: C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1\vivado.jou
+# Running On: Tolgahan, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 6, Host memory: 16948 MB
+#-----------------------------------------------------------
+source question2_design_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 434.750 ; gain = 164.613
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.srcs/utils_1/imports/synth_1/question2_design_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.srcs/utils_1/imports/synth_1/question2_design_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top question2_design_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15704
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1265.664 ; gain = 411.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'question2_design_wrapper' [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/hdl/question2_design_wrapper.vhd:32]
+INFO: [Synth 8-3491] module 'question2_design' declared at 'c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:15' bound to instance 'question2_design_i' of component 'question2_design' [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/hdl/question2_design_wrapper.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'question2_design' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:36]
+INFO: [Synth 8-3491] module 'question2_design_bin2bcd_0_1' declared at 'C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_bin2bcd_0_1_stub.vhdl:6' bound to instance 'bin2bcd_0' of component 'question2_design_bin2bcd_0_1' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'question2_design_bin2bcd_0_1' [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_bin2bcd_0_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'question2_design_bin2bcd_1_0' declared at 'C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_bin2bcd_1_0_stub.vhdl:6' bound to instance 'bin2bcd_1' of component 'question2_design_bin2bcd_1_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'question2_design_bin2bcd_1_0' [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_bin2bcd_1_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'question2_design_c_counter_binary_0_0' declared at 'C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_c_counter_binary_0_0_stub.vhdl:6' bound to instance 'c_counter_binary_0' of component 'question2_design_c_counter_binary_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'question2_design_c_counter_binary_0_0' [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_c_counter_binary_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'question2_design_seg7display_0_0' declared at 'C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_seg7display_0_0_stub.vhdl:6' bound to instance 'seg7display_0' of component 'question2_design_seg7display_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'question2_design_seg7display_0_0' [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_seg7display_0_0_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'question2_design_xlconcat_0_0' declared at 'c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_0_0/synth/question2_design_xlconcat_0_0.v:53' bound to instance 'xlconcat_0' of component 'question2_design_xlconcat_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:186]
+INFO: [Synth 8-6157] synthesizing module 'question2_design_xlconcat_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_0_0/synth/question2_design_xlconcat_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'question2_design_xlconcat_0_0' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_0_0/synth/question2_design_xlconcat_0_0.v:53]
+INFO: [Synth 8-3491] module 'question2_design_xlconcat_1_0' declared at 'c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_1_0/synth/question2_design_xlconcat_1_0.v:53' bound to instance 'xlconcat_1' of component 'question2_design_xlconcat_1_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:196]
+INFO: [Synth 8-6157] synthesizing module 'question2_design_xlconcat_1_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_1_0/synth/question2_design_xlconcat_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat__parameterized0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat__parameterized0' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'question2_design_xlconcat_1_0' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_1_0/synth/question2_design_xlconcat_1_0.v:53]
+INFO: [Synth 8-3491] module 'question2_design_xlconcat_2_0' declared at 'c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_2_0/synth/question2_design_xlconcat_2_0.v:53' bound to instance 'xlconcat_2' of component 'question2_design_xlconcat_2_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:202]
+INFO: [Synth 8-6157] synthesizing module 'question2_design_xlconcat_2_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_2_0/synth/question2_design_xlconcat_2_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'question2_design_xlconcat_2_0' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_2_0/synth/question2_design_xlconcat_2_0.v:53]
+INFO: [Synth 8-3491] module 'question2_design_xlconcat_3_0' declared at 'c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_3_0/synth/question2_design_xlconcat_3_0.v:53' bound to instance 'xlconcat_3' of component 'question2_design_xlconcat_3_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:208]
+INFO: [Synth 8-6157] synthesizing module 'question2_design_xlconcat_3_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_3_0/synth/question2_design_xlconcat_3_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat__parameterized1' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat__parameterized1' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'question2_design_xlconcat_3_0' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconcat_3_0/synth/question2_design_xlconcat_3_0.v:53]
+INFO: [Synth 8-3491] module 'question2_design_xlconstant_0_0' declared at 'c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconstant_0_0/synth/question2_design_xlconstant_0_0.v:53' bound to instance 'xlconstant_0' of component 'question2_design_xlconstant_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:214]
+INFO: [Synth 8-6157] synthesizing module 'question2_design_xlconstant_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconstant_0_0/synth/question2_design_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ipshared/b0f2/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ipshared/b0f2/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'question2_design_xlconstant_0_0' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xlconstant_0_0/synth/question2_design_xlconstant_0_0.v:53]
+INFO: [Synth 8-3491] module 'question2_design_xup_2_to_1_mux_vector_0_0' declared at 'C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_xup_2_to_1_mux_vector_0_0_stub.vhdl:6' bound to instance 'xup_2_to_1_mux_vector_0' of component 'question2_design_xup_2_to_1_mux_vector_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:218]
+INFO: [Synth 8-638] synthesizing module 'question2_design_xup_2_to_1_mux_vector_0_0' [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_xup_2_to_1_mux_vector_0_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'question2_design_xup_clk_divider_0_0' declared at 'C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_xup_clk_divider_0_0_stub.vhdl:6' bound to instance 'xup_clk_divider_0' of component 'question2_design_xup_clk_divider_0_0' [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'question2_design_xup_clk_divider_0_0' [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/.Xil/Vivado-14404-Tolgahan/realtime/question2_design_xup_clk_divider_0_0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'question2_design' (0#1) [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/synth/question2_design.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'question2_design_wrapper' (0#1) [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/hdl/question2_design_wrapper.vhd:32]
+WARNING: [Synth 8-7129] Port In2[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In3[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In7[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In8[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In9[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In10[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In11[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In12[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In13[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In14[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In15[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In16[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In17[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In18[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In19[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In20[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In21[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In22[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In23[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In24[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In25[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In26[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In27[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In28[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In29[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In30[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In31[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In32[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In33[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In34[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In35[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In36[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In37[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In38[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In39[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In40[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In41[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In42[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In43[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In44[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In45[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In46[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In47[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In48[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In49[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In50[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In51[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In52[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In53[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In54[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In55[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In56[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In57[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In58[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In59[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In60[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In61[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In62[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In63[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In64[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In65[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In66[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In67[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In68[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In69[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In70[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In71[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In72[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In73[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In74[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In75[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In76[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In77[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In78[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In79[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In80[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In81[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In82[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In83[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In84[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In85[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In86[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In87[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In88[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In89[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In90[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In91[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In92[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In93[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In94[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In95[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In96[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In97[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In98[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In99[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In100[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In101[0] in module xlconcat_v2_1_4_xlconcat__parameterized1 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1357.590 ; gain = 503.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1357.590 ; gain = 503.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1357.590 ; gain = 503.191
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1357.590 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_bin2bcd_0_1/question2_design_bin2bcd_0_1/question2_design_bin2bcd_0_1_in_context.xdc] for cell 'question2_design_i/bin2bcd_0'
+Finished Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_bin2bcd_0_1/question2_design_bin2bcd_0_1/question2_design_bin2bcd_0_1_in_context.xdc] for cell 'question2_design_i/bin2bcd_0'
+Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xup_clk_divider_0_0/question2_design_xup_clk_divider_0_0/question2_design_xup_clk_divider_0_0_in_context.xdc] for cell 'question2_design_i/xup_clk_divider_0'
+Finished Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xup_clk_divider_0_0/question2_design_xup_clk_divider_0_0/question2_design_xup_clk_divider_0_0_in_context.xdc] for cell 'question2_design_i/xup_clk_divider_0'
+Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_c_counter_binary_0_0/question2_design_c_counter_binary_0_0/question2_design_c_counter_binary_0_0_in_context.xdc] for cell 'question2_design_i/c_counter_binary_0'
+Finished Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_c_counter_binary_0_0/question2_design_c_counter_binary_0_0/question2_design_c_counter_binary_0_0_in_context.xdc] for cell 'question2_design_i/c_counter_binary_0'
+Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_bin2bcd_1_0/question2_design_bin2bcd_1_0/question2_design_bin2bcd_1_0_in_context.xdc] for cell 'question2_design_i/bin2bcd_1'
+Finished Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_bin2bcd_1_0/question2_design_bin2bcd_1_0/question2_design_bin2bcd_1_0_in_context.xdc] for cell 'question2_design_i/bin2bcd_1'
+Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xup_2_to_1_mux_vector_0_0/question2_design_xup_2_to_1_mux_vector_0_0/question2_design_xup_2_to_1_mux_vector_0_0_in_context.xdc] for cell 'question2_design_i/xup_2_to_1_mux_vector_0'
+Finished Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_xup_2_to_1_mux_vector_0_0/question2_design_xup_2_to_1_mux_vector_0_0/question2_design_xup_2_to_1_mux_vector_0_0_in_context.xdc] for cell 'question2_design_i/xup_2_to_1_mux_vector_0'
+Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_seg7display_0_0/question2_design_seg7display_0_0/question2_design_seg7display_0_0_in_context.xdc] for cell 'question2_design_i/seg7display_0'
+Finished Parsing XDC File [c:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.gen/sources_1/bd/question2_design/ip/question2_design_seg7display_0_0/question2_design_seg7display_0_0/question2_design_seg7display_0_0_in_context.xdc] for cell 'question2_design_i/seg7display_0'
+Parsing XDC File [C:/Users/tolga/Desktop/ee213_lab10/question_2/Basys-3-Master.xdc]
+Finished Parsing XDC File [C:/Users/tolga/Desktop/ee213_lab10/question_2/Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/tolga/Desktop/ee213_lab10/question_2/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/question2_design_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/question2_design_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1369.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1369.344 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/bin2bcd_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/xlconcat_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/xlconcat_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/xup_clk_divider_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/c_counter_binary_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/bin2bcd_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/xlconcat_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/xup_2_to_1_mux_vector_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/seg7display_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/xlconcat_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for question2_design_i/xlconstant_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------------------------+----------+
+|      |BlackBox name                              |Instances |
++------+-------------------------------------------+----------+
+|1     |question2_design_bin2bcd_0_1               |         1|
+|2     |question2_design_bin2bcd_1_0               |         1|
+|3     |question2_design_c_counter_binary_0_0      |         1|
+|4     |question2_design_seg7display_0_0           |         1|
+|5     |question2_design_xup_2_to_1_mux_vector_0_0 |         1|
+|6     |question2_design_xup_clk_divider_0_0       |         1|
++------+-------------------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------------------------+------+
+|      |Cell                                            |Count |
++------+------------------------------------------------+------+
+|1     |question2_design_bin2bcd_0_1_bbox               |     1|
+|2     |question2_design_bin2bcd_1_0_bbox               |     1|
+|3     |question2_design_c_counter_binary_0_0_bbox      |     1|
+|4     |question2_design_seg7display_0_0_bbox           |     1|
+|5     |question2_design_xup_2_to_1_mux_vector_0_0_bbox |     1|
+|6     |question2_design_xup_clk_divider_0_0_bbox       |     1|
+|7     |IBUF                                            |     9|
+|8     |OBUF                                            |    12|
++------+------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1369.344 ; gain = 514.945
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1369.344 ; gain = 503.191
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1369.344 ; gain = 514.945
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1372.996 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1381.605 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 88595cfa
+INFO: [Common 17-83] Releasing license: Synthesis
+63 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1381.605 ; gain = 913.219
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tolga/Desktop/ee213_lab10/question_2/question_2.runs/synth_1/question2_design_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file question2_design_wrapper_utilization_synth.rpt -pb question2_design_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  4 08:15:50 2024...

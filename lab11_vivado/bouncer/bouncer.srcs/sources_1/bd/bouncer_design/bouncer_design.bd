@@ -1,0 +1,146 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xFA1B3844ED78B504",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../bouncer.gen/sources_1/bd/bouncer_design",
+      "name": "bouncer_design",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_dff_en_reset_0": "",
+      "xup_or2_0": "",
+      "xup_xor2_0": "",
+      "xup_xor2_1": "",
+      "xup_dff_en_0": "",
+      "xup_dff_en_1": ""
+    },
+    "ports": {
+      "X": {
+        "direction": "I"
+      },
+      "SCLK": {
+        "direction": "I"
+      },
+      "FCLK": {
+        "direction": "I"
+      },
+      "en": {
+        "direction": "I"
+      },
+      "X0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_dff_en_reset_0": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "bouncer_design_xup_dff_en_reset_0_0",
+        "xci_path": "ip\\bouncer_design_xup_dff_en_reset_0_0\\bouncer_design_xup_dff_en_reset_0_0.xci",
+        "inst_hier_path": "xup_dff_en_reset_0"
+      },
+      "xup_or2_0": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "bouncer_design_xup_or2_0_0",
+        "xci_path": "ip\\bouncer_design_xup_or2_0_0\\bouncer_design_xup_or2_0_0.xci",
+        "inst_hier_path": "xup_or2_0"
+      },
+      "xup_xor2_0": {
+        "vlnv": "xilinx.com:XUP:xup_xor2:1.0",
+        "xci_name": "bouncer_design_xup_xor2_0_0",
+        "xci_path": "ip\\bouncer_design_xup_xor2_0_0\\bouncer_design_xup_xor2_0_0.xci",
+        "inst_hier_path": "xup_xor2_0"
+      },
+      "xup_xor2_1": {
+        "vlnv": "xilinx.com:XUP:xup_xor2:1.0",
+        "xci_name": "bouncer_design_xup_xor2_0_1",
+        "xci_path": "ip\\bouncer_design_xup_xor2_0_1\\bouncer_design_xup_xor2_0_1.xci",
+        "inst_hier_path": "xup_xor2_1"
+      },
+      "xup_dff_en_0": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en:1.0",
+        "xci_name": "bouncer_design_xup_dff_en_0_0",
+        "xci_path": "ip\\bouncer_design_xup_dff_en_0_0\\bouncer_design_xup_dff_en_0_0.xci",
+        "inst_hier_path": "xup_dff_en_0"
+      },
+      "xup_dff_en_1": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en:1.0",
+        "xci_name": "bouncer_design_xup_dff_en_0_1",
+        "xci_path": "ip\\bouncer_design_xup_dff_en_0_1\\bouncer_design_xup_dff_en_0_1.xci",
+        "inst_hier_path": "xup_dff_en_1"
+      }
+    },
+    "nets": {
+      "FCLK_1": {
+        "ports": [
+          "FCLK",
+          "xup_dff_en_1/clk",
+          "xup_dff_en_reset_0/clk"
+        ]
+      },
+      "SCLK_1": {
+        "ports": [
+          "SCLK",
+          "xup_dff_en_0/clk"
+        ]
+      },
+      "X_1": {
+        "ports": [
+          "X",
+          "xup_or2_0/b"
+        ]
+      },
+      "en_1": {
+        "ports": [
+          "en",
+          "xup_dff_en_reset_0/en",
+          "xup_dff_en_0/en",
+          "xup_dff_en_1/en"
+        ]
+      },
+      "xup_dff_en_0_q": {
+        "ports": [
+          "xup_dff_en_0/q",
+          "xup_xor2_0/a",
+          "xup_dff_en_1/d",
+          "xup_xor2_1/a"
+        ]
+      },
+      "xup_dff_en_1_q": {
+        "ports": [
+          "xup_dff_en_1/q",
+          "xup_xor2_1/b"
+        ]
+      },
+      "xup_dff_en_reset_0_q": {
+        "ports": [
+          "xup_dff_en_reset_0/q",
+          "xup_or2_0/a",
+          "xup_xor2_0/b",
+          "X0"
+        ]
+      },
+      "xup_or2_0_y": {
+        "ports": [
+          "xup_or2_0/y",
+          "xup_dff_en_reset_0/d"
+        ]
+      },
+      "xup_xor2_0_y": {
+        "ports": [
+          "xup_xor2_0/y",
+          "xup_dff_en_0/d"
+        ]
+      },
+      "xup_xor2_1_y": {
+        "ports": [
+          "xup_xor2_1/y",
+          "xup_dff_en_reset_0/reset"
+        ]
+      }
+    }
+  }
+}

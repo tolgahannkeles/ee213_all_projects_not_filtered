@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.ip_user_files/bd/question1_design/sim/question1_design.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'question1_design'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.gen/sources_1/bd/question1_design/hdl/question1_design_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'question1_design_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.srcs/sim_1/new/testBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_question1_design_wrapper'

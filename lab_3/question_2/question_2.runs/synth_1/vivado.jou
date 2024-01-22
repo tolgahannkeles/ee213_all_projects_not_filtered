@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Dec  6 22:47:25 2023
+# Process ID: 15876
+# Current directory: C:/Users/tolga/Desktop/Projects/vivado/lab_3/question_2/question_2.runs/synth_1
+# Command line: vivado.exe -log question_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source question_2.tcl
+# Log file: C:/Users/tolga/Desktop/Projects/vivado/lab_3/question_2/question_2.runs/synth_1/question_2.vds
+# Journal file: C:/Users/tolga/Desktop/Projects/vivado/lab_3/question_2/question_2.runs/synth_1\vivado.jou
+# Running On: Tolgahan, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 6, Host memory: 16948 MB
+#-----------------------------------------------------------
+source question_2.tcl -notrace

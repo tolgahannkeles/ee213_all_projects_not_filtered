@@ -1,0 +1,65 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 435.066 ; gain = 162.379
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/tolga/Desktop/vivado_test/lab_10/question1/question1.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+Command: link_design -top design_1_wrapper -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/users/tolga/desktop/vivado_test/lab_10/question2/question2.tmp/bin2seg7_v1_0_project/bin2seg7_v1_0_project.gen/sources_1/ip/design_1_bin2BCD_0_1/design_1_bin2BCD_0_1.dcp' for cell 'design_1_i/bin2BCD_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/users/tolga/desktop/vivado_test/lab_10/question2/question2.tmp/bin2seg7_v1_0_project/bin2seg7_v1_0_project.gen/sources_1/ip/design_1_seg7display_0_0/design_1_seg7display_0_0.dcp' for cell 'design_1_i/seg7display_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 868.355 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/tolga/Desktop/vivado_test/lab_10/question1/Basys-3-Master.xdc]
+Finished Parsing XDC File [C:/Users/tolga/Desktop/vivado_test/lab_10/question1/Basys-3-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_xlconcat_0_0' instantiated as 'design_1_i/xlconcat_0' [c:/Users/tolga/Desktop/vivado_test/lab_10/question1/question1.gen/sources_1/bd/design_1/synth/design_1.vhd:138]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_xlconstant_0_0' instantiated as 'design_1_i/xlconstant_0' [c:/Users/tolga/Desktop/vivado_test/lab_10/question1/question1.gen/sources_1/bd/design_1/synth/design_1.vhd:147]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_xlconstant_1_0' instantiated as 'design_1_i/xlconstant_1' [c:/Users/tolga/Desktop/vivado_test/lab_10/question1/question1.gen/sources_1/bd/design_1/synth/design_1.vhd:151]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 997.250 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+13 Infos, 0 Warnings, 3 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'design_1_i/xlconcat_0' of type 'design_1_xlconcat_0_0' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'design_1_i/xlconstant_0' of type 'design_1_xlconstant_0_0' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'design_1_i/xlconstant_1' of type 'design_1_xlconstant_1_0' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+INFO: [Project 1-461] DRC finished with 3 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.875 . Memory (MB): peak = 1023.441 ; gain = 26.191
+INFO: [Common 17-83] Releasing license: Implementation
+18 Infos, 0 Warnings, 3 Critical Warnings and 4 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  1 16:41:13 2024...

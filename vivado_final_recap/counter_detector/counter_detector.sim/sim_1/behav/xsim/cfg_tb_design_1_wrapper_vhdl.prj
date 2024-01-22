@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../counter_detector.ip_user_files/bd/design_1/ip/design_1_c_counter_binary_0_0/sim/design_1_c_counter_binary_0_0.vhd" \
+"../../../../counter_detector.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../counter_detector.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+"../../../../counter_detector.srcs/sim_1/new/test.vhd" \
+
+# Do not sort compile order
+nosort

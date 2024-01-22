@@ -1,0 +1,106 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x5A38604A4D1C684A",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../exercise_1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1"
+    },
+    "design_tree": {
+      "seg7display_0": "",
+      "bin2bcd_0": ""
+    },
+    "ports": {
+      "AN": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "SEG": {
+        "direction": "O",
+        "left": "6",
+        "right": "0"
+      },
+      "DP": {
+        "direction": "O"
+      },
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "10000000"
+          }
+        }
+      },
+      "RESET": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "A": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "seg7display_0": {
+        "vlnv": "xilinx.com:XUP:seg7display:1.0",
+        "xci_name": "design_1_seg7display_0_0",
+        "xci_path": "ip\\design_1_seg7display_0_0\\design_1_seg7display_0_0.xci",
+        "inst_hier_path": "seg7display_0"
+      },
+      "bin2bcd_0": {
+        "vlnv": "xilinx.com:XUP:bin2bcd:1.0",
+        "xci_name": "design_1_bin2bcd_0_1",
+        "xci_path": "ip\\design_1_bin2bcd_0_1\\design_1_bin2bcd_0_1.xci",
+        "inst_hier_path": "bin2bcd_0",
+        "parameters": {
+          "SIZE": {
+            "value": "4"
+          }
+        }
+      }
+    },
+    "nets": {
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "seg7display_0/clk"
+        ]
+      },
+      "RESET_1": {
+        "ports": [
+          "RESET",
+          "seg7display_0/reset"
+        ]
+      },
+      "seg7display_0_a_to_g": {
+        "ports": [
+          "seg7display_0/a_to_g",
+          "SEG"
+        ]
+      },
+      "seg7display_0_an_l": {
+        "ports": [
+          "seg7display_0/an_l",
+          "AN"
+        ]
+      },
+      "seg7display_0_dp_l": {
+        "ports": [
+          "seg7display_0/dp_l",
+          "DP"
+        ]
+      }
+    }
+  }
+}

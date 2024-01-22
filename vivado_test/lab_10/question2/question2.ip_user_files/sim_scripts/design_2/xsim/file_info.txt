@@ -1,0 +1,11 @@
+design_2_c_counter_binary_0_0.vhd,vhdl,xil_defaultlib,../../../bd/design_2/ip/design_2_c_counter_binary_0_0/sim/design_2_c_counter_binary_0_0.vhd,
+xup_clk_divider.v,verilog,xil_defaultlib,../../../bd/design_2/ipshared/bd45/src/xup_clk_divider.v,
+design_2_xup_clk_divider_0_0.v,verilog,xil_defaultlib,../../../bd/design_2/ip/design_2_xup_clk_divider_0_0/sim/design_2_xup_clk_divider_0_0.v,
+design_2.vhd,vhdl,xil_defaultlib,../../../bd/design_2/sim/design_2.vhd,
+seg7display.v,verilog,xil_defaultlib,../../../bd/design_2/ipshared/7665/src/seg7display.v,
+design_2_seg7display_0_0.v,verilog,xil_defaultlib,../../../bd/design_2/ip/design_2_seg7display_0_0/sim/design_2_seg7display_0_0.v,
+bin2BCD.v,verilog,xil_defaultlib,../../../bd/design_2/ipshared/df32/src/bin2BCD.v,
+design_2_bin2bcd_0_2.v,verilog,xil_defaultlib,../../../bd/design_2/ip/design_2_bin2bcd_0_2/sim/design_2_bin2bcd_0_2.v,
+design_2_xlconcat_0_1.v,verilog,xil_defaultlib,../../../bd/design_2/ip/design_2_xlconcat_0_1/sim/design_2_xlconcat_0_1.v,
+design_2_xlconstant_0_1.v,verilog,xil_defaultlib,../../../bd/design_2/ip/design_2_xlconstant_0_1/sim/design_2_xlconstant_0_1.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

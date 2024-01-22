@@ -1,0 +1,48 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.428826",
+   "Default View_TopLeft":"-770,-56",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_A -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port port-id_B -pg 1 -lvl 0 -x 0 -y 230 -defaultsOSRD
+preplace port port-id_C -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port port-id_D -pg 1 -lvl 0 -x 0 -y 530 -defaultsOSRD
+preplace port port-id_X -pg 1 -lvl 4 -x 1320 -y 100 -defaultsOSRD
+preplace port port-id_Y -pg 1 -lvl 4 -x 1320 -y 20 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 1 -x 370 -y 80 -defaultsOSRD
+preplace inst xup_inv_1 -pg 1 -lvl 1 -x 370 -y 230 -defaultsOSRD -resize 200 128
+preplace inst xup_inv_2 -pg 1 -lvl 1 -x 370 -y 380 -defaultsOSRD -resize 200 128
+preplace inst xup_inv_3 -pg 1 -lvl 1 -x 370 -y 720 -defaultsOSRD -resize 200 128
+preplace inst xup_and3_0 -pg 1 -lvl 2 -x 910 -y 20 -defaultsOSRD
+preplace inst xup_and3_1 -pg 1 -lvl 2 -x 910 -y 570 -defaultsOSRD -resize 200 116
+preplace inst xup_and3_2 -pg 1 -lvl 2 -x 910 -y 300 -defaultsOSRD -resize 200 116
+preplace inst xup_and3_3 -pg 1 -lvl 2 -x 910 -y 160 -defaultsOSRD -resize 200 116
+preplace inst xup_and4_0 -pg 1 -lvl 2 -x 910 -y 720 -defaultsOSRD
+preplace inst xup_or5_0 -pg 1 -lvl 3 -x 1170 -y 210 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 2 -x 910 -y 860 -defaultsOSRD
+preplace inst xup_and3_4 -pg 1 -lvl 2 -x 910 -y 990 -defaultsOSRD -resize 200 116
+preplace inst xup_or2_0 -pg 1 -lvl 3 -x 1170 -y 950 -defaultsOSRD
+preplace netloc A_1 1 0 2 250 -10 750
+preplace netloc C_1 1 0 2 240 480 740
+preplace netloc D_1 1 0 2 250 530 770
+preplace netloc xup_inv_0_y 1 1 1 780 0n
+preplace netloc xup_inv_1_y 1 1 1 790 160n
+preplace netloc xup_inv_2_y 1 1 1 760 380n
+preplace netloc B_1 1 0 2 250 470 780
+preplace netloc xup_and3_0_y 1 2 1 1050 20n
+preplace netloc xup_and3_3_y 1 2 1 1030 160n
+preplace netloc xup_and3_2_y 1 2 1 1030 210n
+preplace netloc xup_and3_1_y 1 2 1 1040 230n
+preplace netloc xup_and4_0_y 1 2 1 1050 250n
+preplace netloc xup_or5_0_y 1 3 1 1300 100n
+preplace netloc xup_inv_3_y 1 1 1 490 720n
+preplace netloc xup_and2_0_y 1 2 1 1050 860n
+preplace netloc xup_and3_4_y 1 2 1 1030 960n
+preplace netloc xup_or2_0_y 1 3 1 1290 20n
+levelinfo -pg 1 0 370 910 1170 1320
+pagesize -pg 1 -db -bbox -sgen -60 -90 1380 1070
+"
+}
+

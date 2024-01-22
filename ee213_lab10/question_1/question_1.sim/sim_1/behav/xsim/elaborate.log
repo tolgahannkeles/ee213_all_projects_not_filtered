@@ -1,0 +1,30 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_4 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cfg_tb_question1_design_wrapper_behav xil_defaultlib.cfg_tb_question1_design_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'question1_design_bin2bcd_0_1' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.ip_user_files/bd/question1_design/sim/question1_design.vhd:112]
+WARNING: [VRFC 10-4940] 'question1_design_seg7display_0_0' remains a black box since it has no binding entity [C:/Users/tolga/Desktop/ee213_lab10/question_1/question_1.ip_user_files/bd/question1_design/sim/question1_design.vhd:129]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat(IN4_WID...
+Compiling module xil_defaultlib.question1_design_xlconcat_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.question1_design_xlconstant_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.question1_design_xlconstant_1_0
+Compiling architecture structure of entity xil_defaultlib.question1_design [question1_design_default]
+Compiling architecture structure of entity xil_defaultlib.question1_design_wrapper [question1_design_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_question1_design_wrapper [tb_question1_design_wrapper]
+Built simulation snapshot cfg_tb_question1_design_wrapper_behav

@@ -1,0 +1,5 @@
+question1_design_xlconcat_0_0.v,verilog,xil_defaultlib,../../../bd/question1_design/ip/question1_design_xlconcat_0_0/sim/question1_design_xlconcat_0_0.v,
+question1_design.vhd,vhdl,xil_defaultlib,../../../bd/question1_design/sim/question1_design.vhd,
+question1_design_xlconstant_0_0.v,verilog,xil_defaultlib,../../../bd/question1_design/ip/question1_design_xlconstant_0_0/sim/question1_design_xlconstant_0_0.v,
+question1_design_xlconstant_1_0.v,verilog,xil_defaultlib,../../../bd/question1_design/ip/question1_design_xlconstant_1_0/sim/question1_design_xlconstant_1_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

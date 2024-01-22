@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../question_1.ip_user_files/bd/question1_design/ip/question1_design_xlconcat_0_0/sim/question1_design_xlconcat_0_0.v" \
+"../../../../question_1.ip_user_files/bd/question1_design/ip/question1_design_xlconstant_0_0/sim/question1_design_xlconstant_0_0.v" \
+"../../../../question_1.ip_user_files/bd/question1_design/ip/question1_design_xlconstant_1_0/sim/question1_design_xlconstant_1_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,5 @@
+design_1.vhd,vhdl,xil_defaultlib,../../../bd/design_1/sim/design_1.vhd,
+counters.v,verilog,xil_defaultlib,../../../bd/design_1/ipshared/53a3/src/counters.v,
+design_1_counters_0_1.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_counters_0_1/sim/design_1_counters_0_1.v,
+design_1_xlconstant_0_0.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

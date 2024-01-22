@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Dec  6 21:38:43 2023
+# Process ID: 15592
+# Current directory: C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.runs/synth_1
+# Command line: vivado.exe -log root_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source root_1_wrapper.tcl
+# Log file: C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.runs/synth_1/root_1_wrapper.vds
+# Journal file: C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.runs/synth_1\vivado.jou
+# Running On: Tolgahan, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 6, Host memory: 16948 MB
+#-----------------------------------------------------------
+source root_1_wrapper.tcl -notrace

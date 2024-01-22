@@ -1,0 +1,13 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.gen/sources_1/bd/design_1/ip/design_1_bin2BCD_0_0/design_1_bin2BCD_0_0_sim_netlist.vhdl,1704116676,vhdl,,,,design_1_bin2bcd_0_0,,,,,,,,
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.gen/sources_1/bd/design_1/ip/design_1_seg7display_0_0/design_1_seg7display_0_0_sim_netlist.vhdl,1704116676,vhdl,,,,design_1_seg7display_0_0;design_1_seg7display_0_0_seg7display,,,,,,,,
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.gen/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v,1704115978,verilog,,C:/Users/tolga/Desktop/lab10_vivado/question1/question1.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v,,design_1_xlconcat_0_0,,,,,,,,
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v,1704117225,verilog,,C:/Users/tolga/Desktop/lab10_vivado/question1/question1.gen/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v,,design_1_xlconstant_0_0,,,,,,,,
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.gen/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v,1704115978,verilog,,,,design_1_xlconstant_1_0,,,,,,,,
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.gen/sources_1/bd/design_1/sim/design_1.vhd,1704117225,vhdl,,,,design_1,,,,,,,,
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.srcs/sim_1/new/testBench.vhd,1704117570,vhdl,,,,cfg_tb_design_1_wrapper;tb_design_1_wrapper,,,,,,,,
+C:/Users/tolga/Desktop/lab10_vivado/question1/question1.srcs/sources_1/imports/hdl/design_1_wrapper.vhd,1704115900,vhdl,,,,design_1_wrapper,,,,,,,,

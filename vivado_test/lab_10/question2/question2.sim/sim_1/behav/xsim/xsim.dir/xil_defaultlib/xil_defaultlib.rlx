@@ -1,0 +1,17 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_bin2bcd_0_2/sim/design_2_bin2bcd_0_2.v,1704114184,verilog,,C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_xlconcat_0_1/sim/design_2_xlconcat_0_1.v,,design_2_bin2bcd_0_2,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_c_counter_binary_0_0/sim/design_2_c_counter_binary_0_0.vhd,1704111709,vhdl,,,,design_2_c_counter_binary_0_0,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_seg7display_0_0/sim/design_2_seg7display_0_0.v,1704112436,verilog,,C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ipshared/df32/src/bin2BCD.v,,design_2_seg7display_0_0,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_xlconcat_0_1/sim/design_2_xlconcat_0_1.v,1704114184,verilog,,C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_xlconstant_0_1/sim/design_2_xlconstant_0_1.v,,design_2_xlconcat_0_1,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_xlconstant_0_1/sim/design_2_xlconstant_0_1.v,1704114184,verilog,,,,design_2_xlconstant_0_1,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_xup_clk_divider_0_0/sim/design_2_xup_clk_divider_0_0.v,1704111166,verilog,,C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ipshared/7665/src/seg7display.v,,design_2_xup_clk_divider_0_0,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ipshared/7665/src/seg7display.v,1704112436,verilog,,C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_seg7display_0_0/sim/design_2_seg7display_0_0.v,,seg7display,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ipshared/bd45/src/xup_clk_divider.v,1704110762,verilog,,C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_xup_clk_divider_0_0/sim/design_2_xup_clk_divider_0_0.v,,xup_clk_divider,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ipshared/df32/src/bin2BCD.v,1704114184,verilog,,C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/ip/design_2_bin2bcd_0_2/sim/design_2_bin2bcd_0_2.v,,bin2bcd,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.ip_user_files/bd/design_2/sim/design_2.vhd,1704114184,vhdl,,,,design_2,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.srcs/sim_1/new/test2.vhd,1704114180,vhdl,,,,cfg_tb_design_2_wrapper;tb_design_2_wrapper,,,,,,,,
+C:/Users/tolga/Desktop/vivado_test/lab_10/question2/question2.srcs/sources_1/imports/hdl/design_2_wrapper.vhd,1704114140,vhdl,,,,design_2_wrapper,,,,,,,,

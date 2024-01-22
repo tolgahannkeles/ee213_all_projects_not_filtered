@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/question1_design/sim/question1_design.vhd" \
+
+# Do not sort compile order
+nosort

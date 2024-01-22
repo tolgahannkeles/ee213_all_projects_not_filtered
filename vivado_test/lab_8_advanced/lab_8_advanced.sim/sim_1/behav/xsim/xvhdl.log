@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_test/lab_8_advanced/lab_8_advanced.ip_user_files/bd/design_1/sim/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_test/lab_8_advanced/lab_8_advanced.srcs/sources_1/imports/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_test/lab_8_advanced/lab_8_advanced.srcs/sim_1/new/simooooo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_design_1_wrapper'

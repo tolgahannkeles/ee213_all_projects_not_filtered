@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ipshared/c280/sim/block_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'block_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/sim/root_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'root_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.srcs/sources_1/imports/hdl/root_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'root_1_wrapper'

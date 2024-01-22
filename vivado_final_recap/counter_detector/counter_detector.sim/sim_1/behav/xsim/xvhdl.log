@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_final_recap/counter_detector/counter_detector.ip_user_files/bd/design_1/ip/design_1_c_counter_binary_0_0/sim/design_1_c_counter_binary_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_c_counter_binary_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_final_recap/counter_detector/counter_detector.ip_user_files/bd/design_1/sim/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_final_recap/counter_detector/counter_detector.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tolga/Desktop/vivado_final_recap/counter_detector/counter_detector.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_design_1_wrapper'

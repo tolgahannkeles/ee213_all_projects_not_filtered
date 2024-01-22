@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_8_advanced.ip_user_files/bd/design_1/ipshared/53a3/src/counters.v" \
+"../../../../lab_8_advanced.ip_user_files/bd/design_1/ip/design_1_counters_0_1/sim/design_1_counters_0_1.v" \
+"../../../../lab_8_advanced.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,137 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x8756A6368756A636",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../final.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "U": "",
+      "xup_clk_divider_0": "",
+      "S": "",
+      "xup_and2_0": "",
+      "xup_inv_0": "",
+      "xup_and2_1": ""
+    },
+    "ports": {
+      "X": {
+        "direction": "I"
+      },
+      "clk": {
+        "direction": "I"
+      },
+      "Z": {
+        "direction": "O"
+      },
+      "led_clk": {
+        "direction": "O"
+      },
+      "led_X": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "U": {
+        "vlnv": "xilinx.com:XUP:xup_dff:1.0",
+        "xci_name": "design_1_xup_dff_0_0",
+        "xci_path": "ip\\design_1_xup_dff_0_0\\design_1_xup_dff_0_0.xci",
+        "inst_hier_path": "U"
+      },
+      "xup_clk_divider_0": {
+        "vlnv": "xilinx.com:XUP:xup_clk_divider:1.0",
+        "xci_name": "design_1_xup_clk_divider_0_0",
+        "xci_path": "ip\\design_1_xup_clk_divider_0_0\\design_1_xup_clk_divider_0_0.xci",
+        "inst_hier_path": "xup_clk_divider_0",
+        "parameters": {
+          "SIZE": {
+            "value": "200000000"
+          }
+        }
+      },
+      "S": {
+        "vlnv": "xilinx.com:XUP:xup_dff:1.0",
+        "xci_name": "design_1_xup_dff_0_1",
+        "xci_path": "ip\\design_1_xup_dff_0_1\\design_1_xup_dff_0_1.xci",
+        "inst_hier_path": "S"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_0",
+        "xci_path": "ip\\design_1_xup_and2_0_0\\design_1_xup_and2_0_0.xci",
+        "inst_hier_path": "xup_and2_0"
+      },
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_0",
+        "xci_path": "ip\\design_1_xup_inv_0_0\\design_1_xup_inv_0_0.xci",
+        "inst_hier_path": "xup_inv_0"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_1_0",
+        "xci_path": "ip\\design_1_xup_and2_1_0\\design_1_xup_and2_1_0.xci",
+        "inst_hier_path": "xup_and2_1"
+      }
+    },
+    "nets": {
+      "S_q": {
+        "ports": [
+          "S/q",
+          "xup_and2_0/a"
+        ]
+      },
+      "U": {
+        "ports": [
+          "xup_clk_divider_0/clkout",
+          "U/clk",
+          "S/clk",
+          "led_clk"
+        ]
+      },
+      "U_q": {
+        "ports": [
+          "U/q",
+          "xup_and2_1/b"
+        ]
+      },
+      "X_1": {
+        "ports": [
+          "X",
+          "xup_and2_0/b",
+          "xup_inv_0/a",
+          "led_X"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "xup_clk_divider_0/clkin"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "Z"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "S/d"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "U/d",
+          "xup_and2_1/a"
+        ]
+      }
+    }
+  }
+}

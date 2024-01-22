@@ -1,0 +1,151 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7234BE557234BE55",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../lab_6_main.gen/sources_1/bd/root_1",
+      "name": "root_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "question_a_0": "",
+      "question_a_1": "",
+      "xup_inv_0": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I"
+      },
+      "B": {
+        "direction": "I"
+      },
+      "C": {
+        "direction": "I"
+      },
+      "O0": {
+        "direction": "O"
+      },
+      "O1": {
+        "direction": "O"
+      },
+      "O2": {
+        "direction": "O"
+      },
+      "O3": {
+        "direction": "O"
+      },
+      "O4": {
+        "direction": "O"
+      },
+      "O5": {
+        "direction": "O"
+      },
+      "O6": {
+        "direction": "O"
+      },
+      "O7": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "question_a_0": {
+        "vlnv": "xilinx.com:user:question_a:1.0",
+        "xci_name": "root_1_question_a_0_0",
+        "xci_path": "ip\\root_1_question_a_0_0\\root_1_question_a_0_0.xci",
+        "inst_hier_path": "question_a_0"
+      },
+      "question_a_1": {
+        "vlnv": "xilinx.com:user:question_a:1.0",
+        "xci_name": "root_1_question_a_0_1",
+        "xci_path": "ip\\root_1_question_a_0_1\\root_1_question_a_0_1.xci",
+        "inst_hier_path": "question_a_1"
+      },
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "root_1_xup_inv_0_0",
+        "xci_path": "ip\\root_1_xup_inv_0_0\\root_1_xup_inv_0_0.xci",
+        "inst_hier_path": "xup_inv_0"
+      }
+    },
+    "nets": {
+      "A_1": {
+        "ports": [
+          "A",
+          "question_a_0/A0",
+          "question_a_1/A0"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "question_a_0/A1",
+          "question_a_1/A1"
+        ]
+      },
+      "C_1": {
+        "ports": [
+          "C",
+          "xup_inv_0/a",
+          "question_a_0/EN"
+        ]
+      },
+      "question_a_0_D0": {
+        "ports": [
+          "question_a_0/D0",
+          "O0"
+        ]
+      },
+      "question_a_0_D1": {
+        "ports": [
+          "question_a_0/D1",
+          "O1"
+        ]
+      },
+      "question_a_0_D2": {
+        "ports": [
+          "question_a_0/D2",
+          "O2"
+        ]
+      },
+      "question_a_0_D3": {
+        "ports": [
+          "question_a_0/D3",
+          "O3"
+        ]
+      },
+      "question_a_1_D0": {
+        "ports": [
+          "question_a_1/D0",
+          "O4"
+        ]
+      },
+      "question_a_1_D1": {
+        "ports": [
+          "question_a_1/D1",
+          "O5"
+        ]
+      },
+      "question_a_1_D2": {
+        "ports": [
+          "question_a_1/D2",
+          "O6"
+        ]
+      },
+      "question_a_1_D3": {
+        "ports": [
+          "question_a_1/D3",
+          "O7"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "question_a_1/EN"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../recognizer_10011.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../recognizer_10011.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+"../../../../recognizer_10011.srcs/sim_1/new/testSim.vhd" \
+
+# Do not sort compile order
+nosort

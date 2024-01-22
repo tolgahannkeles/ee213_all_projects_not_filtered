@@ -1,0 +1,286 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x850193BD47F79565",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../question1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_clk_divider_0": "",
+      "A": "",
+      "B": "",
+      "xup_inv_0": "",
+      "xup_and2_0": "",
+      "xup_and2_1": "",
+      "xup_and2_2": "",
+      "xup_and2_3": "",
+      "xup_and3_0": "",
+      "xup_inv_1": "",
+      "xup_inv_2": "",
+      "xup_or2_0": "",
+      "xup_or3_0": "",
+      "xup_and3_1": "",
+      "bouncer_design_wrapp_0": ""
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      },
+      "en": {
+        "direction": "I"
+      },
+      "i": {
+        "direction": "I"
+      },
+      "O": {
+        "direction": "O"
+      },
+      "ledClk": {
+        "direction": "O"
+      },
+      "ledI": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_clk_divider_0": {
+        "vlnv": "xilinx.com:XUP:xup_clk_divider:1.0",
+        "xci_name": "design_1_xup_clk_divider_0_0",
+        "xci_path": "ip\\design_1_xup_clk_divider_0_0\\design_1_xup_clk_divider_0_0.xci",
+        "inst_hier_path": "xup_clk_divider_0",
+        "parameters": {
+          "SIZE": {
+            "value": "200000000"
+          }
+        }
+      },
+      "A": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_xup_dff_en_reset_0_0",
+        "xci_path": "ip\\design_1_xup_dff_en_reset_0_0\\design_1_xup_dff_en_reset_0_0.xci",
+        "inst_hier_path": "A"
+      },
+      "B": {
+        "vlnv": "xilinx.com:XUP:xup_dff_en_reset:1.0",
+        "xci_name": "design_1_A_0",
+        "xci_path": "ip\\design_1_A_0\\design_1_A_0.xci",
+        "inst_hier_path": "B"
+      },
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_0",
+        "xci_path": "ip\\design_1_xup_inv_0_0\\design_1_xup_inv_0_0.xci",
+        "inst_hier_path": "xup_inv_0"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_0",
+        "xci_path": "ip\\design_1_xup_and2_0_0\\design_1_xup_and2_0_0.xci",
+        "inst_hier_path": "xup_and2_0"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_1_0",
+        "xci_path": "ip\\design_1_xup_and2_1_0\\design_1_xup_and2_1_0.xci",
+        "inst_hier_path": "xup_and2_1"
+      },
+      "xup_and2_2": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_2_0",
+        "xci_path": "ip\\design_1_xup_and2_2_0\\design_1_xup_and2_2_0.xci",
+        "inst_hier_path": "xup_and2_2"
+      },
+      "xup_and2_3": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_3_0",
+        "xci_path": "ip\\design_1_xup_and2_3_0\\design_1_xup_and2_3_0.xci",
+        "inst_hier_path": "xup_and2_3"
+      },
+      "xup_and3_0": {
+        "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+        "xci_name": "design_1_xup_and3_0_0",
+        "xci_path": "ip\\design_1_xup_and3_0_0\\design_1_xup_and3_0_0.xci",
+        "inst_hier_path": "xup_and3_0"
+      },
+      "xup_inv_1": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_1_0",
+        "xci_path": "ip\\design_1_xup_inv_1_0\\design_1_xup_inv_1_0.xci",
+        "inst_hier_path": "xup_inv_1"
+      },
+      "xup_inv_2": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_2_0",
+        "xci_path": "ip\\design_1_xup_inv_2_0\\design_1_xup_inv_2_0.xci",
+        "inst_hier_path": "xup_inv_2"
+      },
+      "xup_or2_0": {
+        "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_0_0",
+        "xci_path": "ip\\design_1_xup_or2_0_0\\design_1_xup_or2_0_0.xci",
+        "inst_hier_path": "xup_or2_0"
+      },
+      "xup_or3_0": {
+        "vlnv": "xilinx.com:XUP:xup_or3:1.0",
+        "xci_name": "design_1_xup_or3_0_0",
+        "xci_path": "ip\\design_1_xup_or3_0_0\\design_1_xup_or3_0_0.xci",
+        "inst_hier_path": "xup_or3_0"
+      },
+      "xup_and3_1": {
+        "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+        "xci_name": "design_1_xup_and3_1_0",
+        "xci_path": "ip\\design_1_xup_and3_1_0\\design_1_xup_and3_1_0.xci",
+        "inst_hier_path": "xup_and3_1"
+      },
+      "bouncer_design_wrapp_0": {
+        "vlnv": "xilinx.com:user:bouncer_design_wrapper:1.0",
+        "xci_name": "design_1_bouncer_design_wrapp_0_0",
+        "xci_path": "ip\\design_1_bouncer_design_wrapp_0_0\\design_1_bouncer_design_wrapp_0_0.xci",
+        "inst_hier_path": "bouncer_design_wrapp_0"
+      }
+    },
+    "nets": {
+      "A_q": {
+        "ports": [
+          "A/q",
+          "xup_and2_0/a",
+          "xup_and2_1/a",
+          "xup_and2_2/a",
+          "xup_inv_1/a",
+          "xup_and3_1/a"
+        ]
+      },
+      "B_q": {
+        "ports": [
+          "B/q",
+          "xup_inv_0/a",
+          "xup_and2_3/a",
+          "xup_and3_1/b"
+        ]
+      },
+      "bouncer_design_wrapp_0_X0": {
+        "ports": [
+          "bouncer_design_wrapp_0/X0",
+          "xup_and2_1/b",
+          "xup_and2_2/b",
+          "xup_and2_3/b",
+          "xup_inv_2/a",
+          "ledI"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "xup_clk_divider_0/clkin",
+          "bouncer_design_wrapp_0/FCLK"
+        ]
+      },
+      "en_1": {
+        "ports": [
+          "en",
+          "A/en",
+          "B/en",
+          "bouncer_design_wrapp_0/en"
+        ]
+      },
+      "i_1": {
+        "ports": [
+          "i",
+          "bouncer_design_wrapp_0/X"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "A/reset",
+          "B/reset"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "xup_or2_0/a"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "xup_or2_0/b"
+        ]
+      },
+      "xup_and2_2_y": {
+        "ports": [
+          "xup_and2_2/y",
+          "xup_or3_0/a"
+        ]
+      },
+      "xup_and2_3_y": {
+        "ports": [
+          "xup_and2_3/y",
+          "xup_or3_0/b"
+        ]
+      },
+      "xup_and3_0_y": {
+        "ports": [
+          "xup_and3_0/y",
+          "xup_or3_0/c"
+        ]
+      },
+      "xup_and3_1_y": {
+        "ports": [
+          "xup_and3_1/y",
+          "O"
+        ]
+      },
+      "xup_clk_divider_0_clkout": {
+        "ports": [
+          "xup_clk_divider_0/clkout",
+          "A/clk",
+          "B/clk",
+          "ledClk",
+          "bouncer_design_wrapp_0/SCLK"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "xup_and2_0/b",
+          "xup_and3_0/b"
+        ]
+      },
+      "xup_inv_1_y": {
+        "ports": [
+          "xup_inv_1/y",
+          "xup_and3_0/a"
+        ]
+      },
+      "xup_inv_2_y": {
+        "ports": [
+          "xup_inv_2/y",
+          "xup_and3_0/c",
+          "xup_and3_1/c"
+        ]
+      },
+      "xup_or2_0_y": {
+        "ports": [
+          "xup_or2_0/y",
+          "A/d"
+        ]
+      },
+      "xup_or3_0_y": {
+        "ports": [
+          "xup_or3_0/y",
+          "B/d"
+        ]
+      }
+    }
+  }
+}

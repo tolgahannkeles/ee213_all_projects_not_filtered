@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ipshared/62e1/src/xup_dff.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_dff_0_0/sim/design_1_xup_dff_0_0.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_dff_0_1/sim/design_1_xup_dff_0_1.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ipshared/9859/src/xup_and2.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_and2_0_0/sim/design_1_xup_and2_0_0.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ipshared/c3d7/src/xup_or2.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_or2_0_0/sim/design_1_xup_or2_0_0.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_and2_0_1/sim/design_1_xup_and2_0_1.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ipshared/2167/src/xup_and3.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_and3_0_1/sim/design_1_xup_and3_0_1.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ipshared/67eb/src/xup_inv.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_inv_1_2/sim/design_1_xup_inv_1_2.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_inv_1_3/sim/design_1_xup_inv_1_3.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_and2_1_2/sim/design_1_xup_and2_1_2.v" \
+"../../../../catcher_1011.ip_user_files/bd/design_1/ip/design_1_xup_inv_1_4/sim/design_1_xup_inv_1_4.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

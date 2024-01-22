@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sources_1/bd/block_1/ip/block_1_xup_and3_2_0/src/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sources_1/bd/block_1/ip/block_1_xup_and3_2_0/sim/block_1_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_1_xup_and3_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sources_1/bd/block_1/ip/block_1_xup_inv_0_1/src/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sources_1/bd/block_1/ip/block_1_xup_inv_0_1/sim/block_1_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_1_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sources_1/bd/block_1/ip/block_1_xup_inv_0_0/sim/block_1_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_1_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sources_1/bd/block_1/ip/block_1_xup_and3_0_2/sim/block_1_xup_and3_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_1_xup_and3_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sources_1/bd/block_1/ip/block_1_xup_and3_0_1/sim/block_1_xup_and3_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_1_xup_and3_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sources_1/bd/block_1/ip/block_1_xup_and3_0_0/sim/block_1_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_1_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ipshared/c280/sources_1/imports/hdl/block_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_0/sim/root_1_question_a_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module root_1_question_a_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_question_a_0_1/sim/root_1_question_a_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module root_1_question_a_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.ip_user_files/bd/root_1/ip/root_1_xup_inv_0_0/sim/root_1_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module root_1_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tolga/Desktop/Projects/vivado/lab_6/lab_6_main/lab_6_main.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

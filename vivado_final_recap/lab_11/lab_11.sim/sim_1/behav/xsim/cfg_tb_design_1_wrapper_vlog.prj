@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_11.ip_user_files/bd/design_1/ipshared/9859/src/xup_and2.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_and2_0_0/sim/design_1_xup_and2_0_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_and2_0_1/sim/design_1_xup_and2_0_1.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ipshared/c3d7/src/xup_or2.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_or2_0_0/sim/design_1_xup_or2_0_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ipshared/67eb/src/xup_inv.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_inv_0_0/sim/design_1_xup_inv_0_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_and2_2_0/sim/design_1_xup_and2_2_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_and2_3_0/sim/design_1_xup_and2_3_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_inv_1_0/sim/design_1_xup_inv_1_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_or2_1_0/sim/design_1_xup_or2_1_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_inv_2_0/sim/design_1_xup_inv_2_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ipshared/2167/src/xup_and3.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_and3_0_2/sim/design_1_xup_and3_0_2.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ipshared/37a5/src/xup_dff_en_reset.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_dff_en_reset_0_0/sim/design_1_xup_dff_en_reset_0_0.v" \
+"../../../../lab_11.ip_user_files/bd/design_1/ip/design_1_xup_dff_en_reset_0_1/sim/design_1_xup_dff_en_reset_0_1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
